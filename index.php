@@ -7,5 +7,7 @@
  */
 define("APP_PATH", "./App/");
 define("CORE", "./Core/");
+define("APP_DEBUG", true);
+define("ROOT", __DIR__ . '/');
 
 require CORE . 'Riven.php';

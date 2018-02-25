@@ -10,7 +10,8 @@ class Index extends Controller
         foreach($model->query($query) as $row){
 //            print_r($row);
         }
-        \Core\Log::write('test');
+        \Core\Log::write('testqqq');
+        echo 0/0;
         $this->assign('name', 'jerry');
         $this->display('Index/index');
     }
